@@ -2,11 +2,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://clever-mcnulty-fa79ef.netlify.app/">
+    <a href="https://heuristic-yalow-ffa649.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/ieU5bIwQKN4YXHeJQLOO">
+    <a href="https://devchallenges.io/solutions/3LCAy4WAvO7xd247xayO">
       Solution
     </a>
     <span> | </span>
