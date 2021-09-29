@@ -1,6 +1,9 @@
 import React from "react";
 import heroImage from "../images/heroImage.jpg";
 function header() {
+  const handleSubmit = () => {
+    alert("Done");
+  };
   return (
     <div id="home" className="flex flex-col lg:space-y-4 ">
       <div className="pl-6 space-y-2 lg:space-y-4 lg:pl-60 lg:2xl:pl-96">
@@ -37,8 +40,13 @@ function header() {
               name="email-join"
               id="email-join"
               placeholder="Email"
+              autoComplete="email"
             />
-            <button className="px-4 py-2 text-white bg-blue-500 rounded-xl">
+            <button
+              className="px-4 py-2 text-white bg-blue-500 rounded-xl"
+              type="submit"
+              onClick={handleSubmit}
+            >
               Join
             </button>
           </div>
